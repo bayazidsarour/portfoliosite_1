@@ -1,0 +1,630 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root
+{
+    --primary-font: "Open Sans", sans-serif ;
+    --dark-2: #474747;
+    --dark_1: #181818;
+    --button_bg: #FD6E0A;
+    --reguler: 400;
+    --semi-bold: 600;
+    
+}
+
+
+
+
+
+
+
+
+body
+{
+
+    font-family: open sans ;
+    
+   
+}
+.header_bg
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color: #FFF8F3;
+    
+}
+.header_bg .h2
+{
+    font-family: var(--primary-font);
+    font-size: 100px;
+    color: #181818;
+    opacity: 15%;
+    line-height: auto;
+    letter-spacing: 33px;
+    font-weight: 700;
+    display: inline-block;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -350px;
+    top: 356px;
+   
+
+
+   
+
+}
+
+#header
+{
+ 
+    margin-bottom: 130px;
+}
+
+
+
+
+.container
+{
+    width: 1140px;
+    margin: 0 auto;
+}
+.nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.menu 
+{
+display: flex;
+align-items: center;
+gap: 51px;
+}
+.menu ul
+{
+    display: flex;
+    align-items: center;
+    gap: 66px;
+}
+.menu button
+{
+    margin: 0 auto;
+    background-color: var(--button_bg);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: var(--reguler);
+    color: white;
+    padding: 19px 36px;
+    
+
+}
+.menu ul li
+{
+    list-style: none;
+}
+.menu ul li a
+{
+    text-decoration: none;
+    color: var(--dark-2);
+    font-family: var(--primary-font);
+    font-size: 20px;
+    font-weight: var(--reguler);
+
+}
+/* ===============================Banner Start===================== */
+.banner_wrapper
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.banner_wrapper .left_content
+{
+    width: 585px;
+    margin-top: 185px;
+    margin-bottom: 184px;
+
+}
+.banner_wrapper .right_content img
+{
+    right: 100px;
+}
+
+.banner_wrapper .left_content h4
+{
+color: var(--dark-2);
+font-size: 45px;
+font-weight: 600;
+
+}
+.banner_wrapper .left_content h2
+{
+    color: var(--dark_1);
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+
+}
+.banner_wrapper .left_content p
+{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #757575;
+    margin-top: 20px;
+}
+
+.banner_wrapper .left_content .buttons 
+{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+
+}
+.banner_wrapper .left_content .buttons .button1
+{
+    display: flex;
+    gap: 10px;
+    border: 1px solid #FD6E0A;
+    background-color: var(--button_bg);
+    color: white;
+    padding: 19px 17px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.banner_wrapper .left_content .buttons .button2
+{
+    display: flex;
+    gap: 10px;
+    border: 1px solid var(--button_bg);
+    background-color: #fff;
+    color: #FD6E0A;
+    padding: 19px 23px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.banner_bg 
+{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    background-color: #FFF8F3;
+}
+.banner_bg .left_bg img
+{
+    position: absolute;
+    right: -200px;
+    bottom: 0;
+    z-index: 1;
+}
+.banner_bg .right_bg img
+{
+    position: absolute;
+    right: -150px;
+    z-index: 2;
+    bottom: 0;
+
+}
+/* ======================banner end=========================== */
+
+/* =======================About Start======================== */
+
+
+.about_me
+{
+    padding: 131px 156px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+
+}
+.about_me h2
+{
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+margin-bottom: 30px;
+color: var(--dark_1);
+}
+.about_me p
+
+{
+    text-align: center;
+    text-align-last: center;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #757575;
+}
+.about_me .address
+{
+display: flex;
+justify-content: space-between;
+margin-top: 30px;
+}
+
+.about_me .address p
+{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #474747;
+}
+.about_me .address h3
+{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #2d2c2c;
+    
+}
+
+
+
+
+
+
+/* =======================About End======================== */
+
+/* ===============================What I do Star============= */
+
+
+.what_i_do 
+{
+    padding-top: 130px;
+    padding-bottom: 130px;
+   
+}
+.what_i_do h2
+{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.what_i_do .main_pera
+{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 50px;
+}
+
+.mern 
+{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.mern .mern_box
+{
+    width: 267px;
+padding-top: 32px;
+padding-right: 33px;
+padding-left: 30px;
+padding-bottom: 30px;
+}
+.mern .mern_box img
+{
+
+width: 44px;
+padding-bottom: 28px;
+}
+.mern .mern_box h3
+{
+font-size: 20px;
+font-weight: 700;
+padding-bottom: 20px;
+color: var(--dark_1);
+}
+.mern .mern_box p
+{
+font-size: 16px;
+font-weight: 400;
+color: #757575;
+line-height: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===============================What I do End============= */
+
+
+/* ===========================resume start============================ */
+
+.resume .rh
+{
+font-size: 35px;
+font-weight: 700;
+color: var(--dark_1);
+margin-bottom: 113px;
+text-align: center;
+}
+
+.resume .edu_exp
+{
+display: flex;
+gap: 71px;
+}
+
+.resume .edu_exp .education
+{
+margin-bottom: 30px;
+
+
+}
+
+.resume .edu_exp .education h2
+{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: var(--dark-2);
+}
+
+
+.resume .edu_exp .education .box
+{
+width: 511px;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.resume .edu_exp .education .box h4
+{
+font-size: 30px;
+font-weight: 700;
+margin-bottom: 10px;
+color: var(--dark-2);
+
+}
+.resume .edu_exp .education .box h6
+{
+margin-bottom: 20px;
+font-size: 20px;
+font-weight: 600;
+color: #757575;
+}
+.resume .edu_exp .education .box p
+{
+font-size: 16px;
+line-height: 28px;
+font-weight: 400;
+letter-spacing: 0;
+color: #757575;
+margin-bottom: 30px;
+}
+
+.resume .edu_exp .experiance
+{
+margin-bottom: 30px;
+
+
+}
+
+.resume .edu_exp .experiance h2
+{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: var(--dark-2);
+}
+
+
+.resume .edu_exp .experiance .box
+{
+width: 511px;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.resume .edu_exp .experiance .box h4
+{
+font-size: 30px;
+font-weight: 700;
+margin-bottom: 10px;
+color: var(--dark-2);
+
+}
+.resume .edu_exp .experiance .box h6
+{
+margin-bottom: 20px;
+font-size: 20px;
+font-weight: 600;
+color: #757575;
+}
+.resume .edu_exp .experiance .box p
+{
+font-size: 16px;
+line-height: 28px;
+font-weight: 400;
+letter-spacing: 0;
+color: #757575;
+margin-bottom: 30px;
+}
+.resume .edu_exp .experiance .box hr
+{
+
+}
+
+
+.resume .download_cv
+{
+   text-align: center;
+
+}
+.resume .download_cv button
+{
+
+    background-color: var(--button_bg);
+    border: none;
+    padding: 19px 17px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+.resume .download_cv button i
+{
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+/* ===========================resume end ============================ */
+
+/* ========================Footer Start==================== */
+
+#footer
+{
+    background-color: #FFF8F3;
+    margin-top: 113px;
+}
+
+.footer
+{
+    padding-top: 130px;
+    padding-bottom: 130px;
+   
+    display: flex;
+    justify-content: space-between;
+}
+.footer .left_side
+
+{
+    width: 50%;
+}
+.footer .right_side
+{
+    width: 45%;
+}
+.footer .left_side h2
+{
+font-size: 35px;
+font-weight: 700;
+color: var(--dark_1);
+margin-bottom: 20px;
+}
+.footer .left_side p
+{
+width: 562px;
+font-size: 16px;
+line-height: 28px;
+font-weight: 400;
+color: var(--dark-2);
+margin-bottom: 30px;
+}
+
+.footer .left_side .menu
+{
+    width: 120px;
+}
+
+
+
+
+
+.footer .left_side .menu ul
+{
+    display: flex;
+
+}
+.footer .left_side .menu ul li
+{
+    list-style: none;
+    
+}
+.footer .left_side .menu ul li i
+{
+    width: 24px;
+    height: 24px;
+    color: #FD6E0A;
+}
+
+.footer .right_side h2
+{
+    font-size: 35px;
+    font-weight: 700;
+    color: var(--dark_1);
+    margin-bottom: 28px;
+}
+
+.footer .right_side .form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+.footer .right_side .form .message
+{
+padding-bottom: 180px;
+padding-top: 20px;
+
+}
+.footer .right_side .form input
+{
+    width: 461px;
+    color: var(--dark_1);
+    border: none;
+    height: 64px;
+    outline: none;
+  
+}
+
+.footer .right_side .form input::placeholder
+{
+   
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    border-radius: 5px;
+}
+
+.footer .right_side .submit button
+{
+    padding: 18px 39px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+
+
+/* ========================Footer End  ==================== */
